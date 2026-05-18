@@ -4,11 +4,11 @@ import React, { useState, useEffect } from "react";
 import { Menu, X, ChevronRight, Search } from "lucide-react";
 
 const navLinks = [
-  { name: "Home", href: "#" },
-  { name: "Profile", href: "#" },
-  { name: "Product", href: "#" },
-  { name: "Workflow", href: "#" },
-  { name: "Teach Stack", href: "#" },
+  { name: "Home", href: "#home" },
+  { name: "Profile", href: "#profile" },
+  { name: "Product", href: "#product" },
+  { name: "Workflow", href: "#workflow" },
+  { name: "Teach Stack", href: "#techstack" },
 ];
 
 export function Header() {
@@ -32,7 +32,7 @@ export function Header() {
               <span className="text-white font-bold text-lg">TMS</span>
             </div>
             <span className="text-xl font-bold text-slate-800 tracking-tight">
-              DESIGN<span className="text-blue-600">CORE</span>
+              TECHNOLOGY MULTI <span className="text-blue-600">SYSTEM</span>
             </span>
           </div>
 

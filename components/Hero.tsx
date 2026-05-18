@@ -7,22 +7,17 @@ import { ChevronLeft, ChevronRight, ArrowRight } from "lucide-react";
 const slides = [
   {
     id: 1,
-    image: "https://images.unsplash.com/photo-1497366216548-37526070297c?auto=format&fit=crop&q=80&w=1200",
+    image: "/dua.jpeg",
     title: "Modern Workspace",
     description: "Ciptakan lingkungan kerja yang inspiratif dengan desain minimalis dan fungsionalitas tinggi."
   },
   {
     id: 2,
-    image: "https://images.unsplash.com/photo-1497366811353-6870744d04b2?auto=format&fit=crop&q=80&w=1200",
+    image: "/satu.jpeg",
     title: "Creative Collaboration",
     description: "Kolaborasi adalah kunci inovasi. Kami membangun ruang yang mendukung pertukaran ide tanpa batas."
   },
-  {
-    id: 3,
-    image: "https://images.unsplash.com/photo-1441986300917-64674bd600d8?auto=format&fit=crop&q=80&w=1200",
-    title: "Eco-Friendly Design",
-    description: "Menghadirkan nuansa alam ke dalam ruangan untuk meningkatkan kesejahteraan dan produktivitas."
-  }
+  
 ];
 
 

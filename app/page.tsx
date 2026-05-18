@@ -11,21 +11,19 @@ export default function Home() {
       <Header />
 
       <main className="max-w-7xl mx-auto px-4 md:px-6 lg:px-8 w-full pt-32 pb-24 flex flex-col gap-8 md:gap-10">
-        <section>
+        <section id="home">
           <Hero />
         </section>
 
-        <section>
+        <section id="workflow">
           {/* Workflow */}
           <Workflow />
         </section>
-        <section>
-   {/* Teach stack */}
-          <TechStack/>
+        <section id="techstack">
+          {/* Teach stack */}
+          <TechStack />
         </section>
-     
       </main>
-
       <Footer />
     </div>
   );

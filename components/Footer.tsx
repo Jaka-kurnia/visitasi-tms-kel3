@@ -9,7 +9,7 @@ const Footer = () => {
           {/* Logo atau Nama Brand */}
           <div className="text-xl font-bold">
             <Link href="/" className="hover:text-blue-400 transition">
-              NamaBrand
+            Technology Multi System
             </Link>
           </div>
 
@@ -28,7 +28,7 @@ const Footer = () => {
 
           {/* Copyright */}
           <div className="text-sm text-gray-500">
-            © {new Date().getFullYear()} NamaBrand.
+            © {new Date().getFullYear()} TMS
           </div>
           
         </div>
