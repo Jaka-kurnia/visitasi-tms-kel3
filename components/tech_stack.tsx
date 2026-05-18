@@ -86,7 +86,7 @@ export function TechStack() {
             <h2 className="text-2xl font-bold text-slate-800 mb-4">
               {item.title}
             </h2>
-            <p className="text-slate-600 text-sm leading-relaxed mb-8 flex-grow">
+            <p className="text-slate-600 text-sm leading-relaxed mb-8 grow">
               {item.description}
             </p>
 
