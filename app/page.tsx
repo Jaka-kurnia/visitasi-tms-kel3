@@ -1,15 +1,15 @@
 import Image from "next/image";
 import { Header } from "@/components/Header";
-
+import { Hero } from "@/components/Hero";
 
 export default function Home() {
   return (
-    <div className="min-h-screen bg-gray-50 dark:bg-[#0f0f0f] transition-colors duration-300 text-slate-900 dark:text-gray-100 font-sans">
+    <div className="min-h-screen bg-gray-50 transition-colors duration-300 text-slate-900 font-sans">
      <Header/>
 
-      <main className="max-w-7xl mx-auto px-4 md:px-6 lg:px-8 w-full pt-5 pb-24 flex flex-col gap-8 md:gap-10">
+      <main className="max-w-7xl mx-auto px-4 md:px-6 lg:px-8 w-full pt-32 pb-24 flex flex-col gap-8 md:gap-10">
         <section>
-          {/* Hero */}
+          <Hero/>
         </section>
 
         <section>
