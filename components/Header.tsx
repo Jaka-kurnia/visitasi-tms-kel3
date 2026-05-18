@@ -24,12 +24,12 @@ export function Header() {
   }, []);
 
   return (
-    <header className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${isScrolled ? "bg-white/90 backdrop-blur-md shadow-sm py-3" : "bg-slate-50 py-5"}`}>
+    <header className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${isScrolled ? "bg-white/80 backdrop-blur-lg shadow-sm py-3" : "bg-transparent py-5"}`}>
       <div className="max-w-7xl mx-auto px-6 md:px-12">
         <div className="flex items-center justify-between">
           <div className="flex items-center gap-2 cursor-pointer group">
-            <div className="w-16 h-16 bg-blue-600 rounded-xl flex items-center justify-center transition-transform group-hover:rotate-12">
-              <span className="text-white font-bold text-xl">TMS</span>
+            <div className="w-12 h-12 bg-blue-600 rounded-xl flex items-center justify-center transition-transform group-hover:rotate-12 shadow-sm">
+              <span className="text-white font-bold text-lg">TMS</span>
             </div>
             <span className="text-xl font-bold text-slate-800 tracking-tight">
               DESIGN<span className="text-blue-600">CORE</span>
