@@ -57,7 +57,7 @@ export function Workflow() {
             {/* Step 1 */}
             <div className="relative">
               {/* Number Badge */}
-              <div className="absolute -left-[35px] top-0 w-6 h-6 bg-indigo-600 text-white rounded-full flex items-center justify-center text-xs font-bold">
+              <div className="absolute left-[-35px] top-0 w-6 h-6 bg-indigo-600 text-white rounded-full flex items-center justify-center text-xs font-bold">
                 1
               </div>
               <div className="flex flex-col gap-1">
@@ -73,7 +73,7 @@ export function Workflow() {
             {/* Step 2 */}
             <div className="relative">
               {/* Number Badge */}
-              <div className="absolute -left-[35px] top-0 w-6 h-6 bg-indigo-600 text-white rounded-full flex items-center justify-center text-xs font-bold">
+              <div className="absolute left-[-35px] top-0 w-6 h-6 bg-indigo-600 text-white rounded-full flex items-center justify-center text-xs font-bold">
                 2
               </div>
               <div className="flex flex-col gap-1">
@@ -89,7 +89,7 @@ export function Workflow() {
             {/* Step 3 */}
             <div className="relative">
               {/* Number Badge */}
-              <div className="absolute -left-[35px] top-0 w-6 h-6 bg-indigo-600 text-white rounded-full flex items-center justify-center text-xs font-bold">
+              <div className="absolute left-[-35px] top-0 w-6 h-6 bg-indigo-600 text-white rounded-full flex items-center justify-center text-xs font-bold">
                 3
               </div>
               <div className="flex flex-col gap-1">
@@ -105,7 +105,7 @@ export function Workflow() {
             {/* Step 4 */}
             <div className="relative">
               {/* Number Badge */}
-              <div className="absolute -left-[35px] top-0 w-6 h-6 bg-indigo-600 text-white rounded-full flex items-center justify-center text-xs font-bold">
+              <div className="absolute left-[-35px] top-0 w-6 h-6 bg-indigo-600 text-white rounded-full flex items-center justify-center text-xs font-bold">
                 4
               </div>
               <div className="flex flex-col gap-1">
