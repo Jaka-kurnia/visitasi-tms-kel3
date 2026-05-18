@@ -2,7 +2,7 @@ import Image from "next/image";
 import { Header } from "@/components/Header";
 import { Hero } from "@/components/Hero";
 import { Workflow } from "@/components/Workflow";
-
+import { TechStack } from "@/components/tech_stack";
 export default function Home() {
   return (
     <div className="min-h-screen bg-gray-50 transition-colors duration-300 text-slate-900 font-sans">
@@ -19,6 +19,7 @@ export default function Home() {
         </section>
         <section>
    {/* Teach stack */}
+          <TechStack/>
         </section>
      
       </main>
